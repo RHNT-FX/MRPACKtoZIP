@@ -28,4 +28,7 @@ This Java application extracts all files from a `.mrpack` archive and repackages
 4. The program will convert the `.mrpack` to `.zip` and print a success message.
 5. Use the resulting `.zip` file as needed!
 
+
+![Bitcoin](https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white)
+
 ---
