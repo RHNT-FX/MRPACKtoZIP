@@ -1,13 +1,31 @@
-MRPACK to ZIP Converter 🚀📦
+# MRPACK to ZIP Converter 🚀📦
 
-A powerful Java-based tool designed to seamlessly convert Modrinth `.mrpack` modpacks into standard `.zip` files compatible with Minecraft Java Edition. This project simplifies modpack management by extracting all mods, configurations, and assets from `.mrpack` archives and repackaging them into a widely supported `.zip` format. Ideal for modpack creators and players who want easy installation and sharing without compatibility issues. Built with performance and reliability in mind, this converter supports smooth handling of modpack contents while preserving file integrity. Enhance your Minecraft modding workflow with MRPACK to ZIP! 🎮🛠️✨
+Convert your Modrinth `.mrpack` Minecraft modpacks into standard `.zip` files effortlessly with this Java GUI tool! Perfect for players and modpack creators who want to manage and share their modpacks outside Modrinth.
 
-Features:
-- Fast and reliable conversion from `.mrpack` to `.zip`
-- Preserves all mod files and configurations intact
-- Cross-platform compatibility thanks to Java
-- Simple usage for both developers and gamers
-- Facilitates modpack sharing and installation outside Modrinth
+---
 
-Perfect for anyone looking to bridge Modrinth modpacks with traditional Minecraft modding tools! 🌟🗂️
+## 🎯 What is this?
 
+This Java application extracts all files from a `.mrpack` archive and repackages them into a `.zip` archive, preserving the folder structure and contents. It uses a simple graphical interface to select input and output files, making it easy for anyone to use.
+
+---
+
+## 🚀 Features
+
+- **Simple GUI file selectors** for input `.mrpack` and output `.zip`
+- **Preserves directory structure** inside the archive
+- **Cross-platform** thanks to Java
+- **Lightweight and fast** conversion process
+- **Console messages** to track progress and errors
+
+---
+
+## 🛠️ How to Use
+
+1. **Run the program** (compile and execute the Java file `MrpackToZipConverter.java`).
+2. A file chooser dialog will appear - **select your `.mrpack` file**.
+3. Next, choose the **destination and name for the output `.zip` file**.
+4. The program will convert the `.mrpack` to `.zip` and print a success message.
+5. Use the resulting `.zip` file as needed!
+
+---
